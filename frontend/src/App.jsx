@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../layout/Navbar'
 import Hero from '../sections/Hero'
+import About from '../sections/About'
 
 const App = () => {
   
@@ -11,10 +12,8 @@ const App = () => {
  
 
       <Navbar/>
-      <div className='min-h-screen pt-24'>
         <Hero />
-        <Hero />
-      </div>
+        <About />
       
     </div>
   )

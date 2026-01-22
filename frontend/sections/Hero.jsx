@@ -6,10 +6,10 @@ const Hero = () => {
 
   return (
     
-    <div className='md:grid md:grid-cols-2 md:py-2 md:px-20 py-2 px-10 flex flex-col gap-15'>
+    <div className='h-screen md:grid md:grid-cols-2 md:py-2 md:px-20 py-2 px-10 flex flex-col gap-15'>
       
       {/*First Column*/}
-      <div className='w-full flex flex-col gap-8 md:gap-10'>
+      <div className='w-full flex flex-col gap-8 md:gap-10 pt-26'>
         
         {/*Glass*/}
         <GlassInfo info="React Developer & Full Stack Developer" secondInfo="Based in Manila, Philippines"/>
