@@ -10,14 +10,14 @@ const Navbar = () => {
   const navItems = ['About', 'Skills', 'Projects', 'Contact'];
 
   return (
-    <div className='min-w-full h-auto fixed top-0 left-0 right-0 z-1000 backdrop-blur-lg'>
+    <div className='min-w-full min-h-24 fixed top-0 left-0 right-0 z-1000 backdrop-blur-lg'>
       
       {/*Inner*/}
       <div className='md:py-7 md:px-20 py-6 px-10'>
         
         <div className='min-w-full justify-between flex flex-row items-center'>
           <div>
-            <h1 className='font-semibold md:text-2xl text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#41cf00] to-[#98de78]'>Wendel</h1>
+            <h1 className='font-semibold md:text-2xl text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#7ffe5d] via-[#7ffe5d]/50 to-[#7ffe5d]/30'>Wendel</h1>
           </div>
 
           <div className='hidden md:block'>
