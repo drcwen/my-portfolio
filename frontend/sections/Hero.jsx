@@ -12,12 +12,10 @@ const Hero = () => {
         <div class="absolute top-10 h-full w-full bg-black"><div class="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[#2e4127] opacity-50 blur-[80px]"></div></div>
       </div>
       
-      <div className='md:grid md:grid-cols-2 md:py-2 md:px-20 px-10 flex flex-col gap-15 pt-16 md:[80px]'>
+      <div className='md:grid md:grid-cols-2 md:py-2 md:px-20 px-10 flex flex-col gap-15 pt-16 md:pt-10'>
         
         {/*First Column*/}
         <div className='min-w-full min-h-screen flex flex-col gap-12 md:gap-10 justify-center z-10'>
-
-          
           
             {/*Glass*/}
             <GlassInfo info="React Developer & Full Stack Developer" secondInfo="Based in Manila, Philippines"/>
@@ -93,7 +91,7 @@ const Hero = () => {
           
           <div className='min-w-full min-h-screen flex items-center justify-center'>
             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXBb_AlOmXPU2zfOerDmYpwIwkwSBE00oqwg&s'
-            className='w-100 rounded-4xl border-2 border-[#7ffe5d]'/>
+            className='w-100 rounded-4xl border border-white/30 hover:border-[#7ffe5d]/50 transition-all duration-300'/>
 
           </div>
 
